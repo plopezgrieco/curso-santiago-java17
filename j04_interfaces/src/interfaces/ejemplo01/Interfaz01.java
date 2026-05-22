@@ -1,4 +1,4 @@
-package j04_interfaces;
+package interfaces.ejemplo01;
 
 //@FunctionalInterface
 public interface Interfaz01 {
