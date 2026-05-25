@@ -32,8 +32,6 @@ public class ListaEnlazada {
 		return cant;
 	}
 	
-	
-	
 	private class Nodo {
 		String dato;
 		Nodo siguiente;

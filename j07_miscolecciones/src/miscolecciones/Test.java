@@ -5,6 +5,8 @@ public class Test {
 		ListaEnlazada lista = new ListaEnlazada();
 		
 		lista.agregar("uno");
+		lista.agregar("uno");
+		lista.agregar("uno");
 		lista.agregar("dos");
 		lista.agregar("tres");
 		
