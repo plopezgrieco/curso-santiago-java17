@@ -9,7 +9,7 @@ public class TestCalculadora {
 		
 		System.out.println(suma.opera(4, 8));
 		System.out.println(multiplica.opera(4, 8));
-		
+		 
 		calcula(suma);
 		calcula((a, b) -> a / b);
 	}
