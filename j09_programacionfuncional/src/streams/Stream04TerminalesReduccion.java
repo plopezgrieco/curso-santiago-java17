@@ -30,12 +30,21 @@ public class Stream04TerminalesReduccion {
 		System.out.println("sum: " +
 			nums.stream().mapToInt(Integer::intValue).sum()
 		);
-		
 		System.out.println("------------");
 		
 		nums = List.of(1, 2, 3, 4);
 		//reduce
 		System.out.println(nums.stream().reduce(Integer::max));
 		System.out.println("producto: " + nums.stream().reduce(1, (x, y) -> x * y));
+		System.out.println("------------");
+		
+		System.out.println(nums.stream().filter(n -> n > 2).findFirst());
+		
+		System.out.println(nums.stream().allMatch(n -> n > 0)); //true
+		System.out.println(nums.stream().allMatch(n -> n > 1)); //false
+
+		System.out.println(nums.stream().noneMatch(n -> n < 1)); //true
+		
+		
 	}
 }
