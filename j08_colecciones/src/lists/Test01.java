@@ -28,7 +28,8 @@ public class Test01 {
 		tf = System.currentTimeMillis();
 		System.out.println("LinkedList: " + (tf - t0));
 	}
-	
+ 	
+//	Para recorrer una colección se debe usar el iterator o for extendido (foreach)
 	public static void recorre(List<String> lista) {
 		String str;
 		for (int i = 0; i < lista.size(); i++) {
